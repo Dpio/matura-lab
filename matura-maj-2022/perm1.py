@@ -1,6 +1,7 @@
-def permutacja(n: int, A):
+def permutacja(A):
     k: int = 0
     B = []
+    n = len(A)
     for i in range(0, n):
         B.append(0)
 
@@ -17,12 +18,12 @@ def permutacja(n: int, A):
     return k
 
 C = [1, 4, 2, 5, 4]; # pomysł pati
-print(f"{permutacja(3, [1, 3, 1])}")
-print(f"{permutacja(4, [ 1, 4, 2, 5])}")
-print(f"{permutacja(5, [ 2, 2, 2, 2, 2 ])}")
-print(f"{permutacja(4, [ 4, 2, 3, 1 ])}")
-print(f"{permutacja(6, [ 5, 4, 1, 5, 6, 8 ])}")
-print(f"{permutacja(6, [ 8, 4, 9, 6, 5, 7 ])}")
+print(f"{permutacja([1, 3, 1])}")
+print(f"{permutacja([ 1, 4, 2, 5])}")
+print(f"{permutacja([ 2, 2, 2, 2, 2 ])}")
+print(f"{permutacja([ 4, 2, 3, 1 ])}")
+print(f"{permutacja([ 5, 4, 1, 5, 6, 8 ])}")
+print(f"{permutacja([ 8, 4, 9, 6, 5, 7 ])}")
         
     
 
