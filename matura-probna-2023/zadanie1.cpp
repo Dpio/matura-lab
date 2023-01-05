@@ -181,7 +181,7 @@ void zadanie1_3(const std::string& plik) {
     int sumaPass = 0; // Podaj łączną liczbę dobrych pass, które miały obie drużyny w meczu
     int najdluzszaPassa = 0; // Wyznacz długość najdłuższej dobrej passy i drużynę, która ją osiągnęła.
     char najdluzszaPassaDruzyna = 'z'; // Drużyna która osiągnęła najdłuższą dobra passę.
-    char poprzedniZnak = "z";
+    char poprzedniZnak = 'z';
     int obecnaPassa = 0;
 
     std::ifstream f(plik);
